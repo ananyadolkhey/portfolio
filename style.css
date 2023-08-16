@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  color:  #0A2647;
+  background-color: #ECF9FF;
+}
+nav {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #205E61;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin : 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+nav ul li a:hover {
+  color: #411530;
+  font-size: 1.2rem;
+}
+.left{
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:80px 0 ;
+  color: #256D85;
+}
+.name {
+  color: #002B5B;
+}
+.leftsection{
+  font-size: 3rem;
+}
+.firstsection > div  {
+  width: 30%;
+}
+.rightsection img {
+  width : 80%;
+}
+#element {
+  color: #002B5B;
+}
+main hr {
+  border: 0;
+  background-color: #9c97f1;
+  margin : 40px 84px;
+  height: 1.7px;
+}
+.secondsection{
+  max-width: 80vw;
+  margin: auto;
+  height: 65vh;
+}
+.secondsection h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.textgray {
+  color: gray;
+
+}
+.box{
+  background: #18978F;
+  width: 80vw;
+  height: 2px;
+  margin: 60px 0 ;
+  display: flex;
+}
+.vertical {
+  height: 50px;
+  width: 1px;
+  background: #18978F;
+  margin : 0 150px;
+}
+.vertical-title {
+  position : relative;
+  color: #112B3C;
+  font-weight: bolder;
+  top: 75px;
+  width : 150px;
+}
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 11px;
+}
+.thirdsection {
+  margin : auto;
+
+  max-width: 80vw;
+  height: 80vh;
+
+}
+.box1 {
+  display: flex;
+  justify-content: space-around;
+margin: 100px 200px;
+
+
+}
+.Projects{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.Projects img {
+  width: 45%;
+  height: 60%;
+  margin-bottom: 15px;
+}
+.Projects span{
+  margin: 0 20px;
+  font-weight: bolder;
+}
+footer {
+  background-color: #205E61;
+  color: white;
+
+  height: 150px;
+}
+.leftfooter {
+  margin: 15px;
+
+  margin-top: 20px;
+  padding-top: 50px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.leftfooter ul {
+  display: flex;
+  justify-content: space-between;
+  color: white
+}
+.leftfooter ul li  {
+  list-style: none;
+
+}
